@@ -1,0 +1,83 @@
+name: Design Standards Rules
+description: Rules for adopting and operating design standards across products, interfaces, and APIs.
+version: 1.0.0
+created: 2026-04-28
+modified: 2026-04-28
+rules:
+  - id: DS-001
+    name: Publish a Single Source of Truth
+    severity: error
+    description: Maintain one canonical, versioned design standards document referenced by all teams.
+    rationale: Multiple competing copies guarantee drift and contradicting guidance.
+
+  - id: DS-002
+    name: Standards Must Be Machine-Checkable
+    severity: warning
+    description: Express each standard so that a linter, schema, or test can enforce it.
+    rationale: Human-only review is inconsistent; automation enforces evenly across teams.
+
+  - id: DS-003
+    name: Use RFC 2119 Keywords
+    severity: warning
+    description: State requirements with MUST, SHOULD, MAY, and their negations from RFC 2119.
+    rationale: Precise requirement levels remove ambiguity from compliance reviews.
+
+  - id: DS-004
+    name: Define Naming Conventions
+    severity: error
+    description: Standardize casing for resources, properties, query parameters, and headers (kebab-case URLs, snake_case or camelCase fields, consistently).
+    rationale: Mixed casing increases cognitive load and breaks code generation.
+
+  - id: DS-005
+    name: Adopt ISO Date and Currency Formats
+    severity: error
+    description: Use ISO 8601 for dates and times, ISO 4217 for currency, and ISO 3166 for country codes.
+    rationale: International standards interoperate with libraries, locales, and partner systems.
+
+  - id: DS-006
+    name: Specify Authentication Standard
+    severity: error
+    description: Mandate a single authentication scheme (OAuth 2.0, OIDC, or signed JWT) for production APIs.
+    rationale: One scheme reduces integration cost and centralizes security review.
+
+  - id: DS-007
+    name: Define Error Response Shape
+    severity: error
+    description: Adopt RFC 7807 problem+json or an equivalent typed error object.
+    rationale: Consistent errors let consumer SDKs handle failures without per-API special cases.
+
+  - id: DS-008
+    name: Mandate API-First Development
+    severity: warning
+    description: Specifications (OpenAPI, AsyncAPI, JSON Schema) must exist before implementation begins.
+    rationale: API-first surfaces design issues cheaply and produces durable contracts.
+
+  - id: DS-009
+    name: Version with SemVer
+    severity: warning
+    description: Use semantic versioning for published specifications and SDKs.
+    rationale: SemVer signals breaking change intent in a single number.
+
+  - id: DS-010
+    name: Document Deprecation Policy
+    severity: warning
+    description: Reference a deprecation policy that defines notice windows, headers, and migration support.
+    rationale: Standards without an exit lifecycle compound technical debt.
+
+  - id: DS-011
+    name: Accessibility Conformance
+    severity: error
+    description: Visual and interactive standards must meet WCAG 2.1 AA at minimum.
+    rationale: Accessibility is a baseline product requirement, not an enhancement.
+
+  - id: DS-012
+    name: Style Guide Linting
+    severity: warning
+    description: Run Spectral or equivalent lint rules against every specification in CI.
+    rationale: Continuous linting prevents regressions and shortens review cycles.
+
+  - id: DS-013
+    name: Standards Governance
+    severity: info
+    description: Designate an owning body, RFC process, and review cadence for standards changes.
+    rationale: Without governance, standards stagnate or fragment.

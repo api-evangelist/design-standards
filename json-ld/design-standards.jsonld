@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "schema": "https://schema.org/",
+    "ds": "https://raw.githubusercontent.com/api-evangelist/design-standards/main/vocabulary/design-standards-vocabulary.json#"
+  },
+  "@type": "schema:TechArticle",
+  "@id": "https://github.com/api-evangelist/design-standards",
+  "schema:name": "Design Standards",
+  "schema:description": "Frameworks, guidelines, and best practices used in product, interface, and system design to ensure consistency, usability, and accessibility.",
+  "schema:about": [
+    { "@id": "ds:DesignStandard" },
+    { "@id": "ds:StyleGuide" },
+    { "@id": "ds:DesignSystem" },
+    { "@id": "ds:APIGuideline" },
+    { "@id": "ds:Specification" },
+    { "@id": "ds:WCAG" },
+    { "@id": "ds:ProblemJSON" },
+    { "@id": "ds:SemanticVersioning" },
+    { "@id": "ds:DeprecationPolicy" }
+  ],
+  "schema:keywords": [
+    "Design Standards",
+    "Design Systems",
+    "UX",
+    "Accessibility"
+  ],
+  "schema:dateCreated": "2025-01-01",
+  "schema:dateModified": "2026-04-28"
+}

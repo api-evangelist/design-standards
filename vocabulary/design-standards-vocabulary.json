@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "@vocab": "https://raw.githubusercontent.com/api-evangelist/design-standards/main/vocabulary/design-standards-vocabulary.json#",
+    "schema": "https://schema.org/"
+  },
+  "name": "Design Standards Vocabulary",
+  "description": "Controlled vocabulary for the design standards domain spanning product, interface, and API design.",
+  "version": "1.0.0",
+  "terms": [
+    { "term": "DesignStandard", "definition": "A documented, enforceable rule for how design and engineering deliverables must be produced." },
+    { "term": "StyleGuide", "definition": "A collection of related design standards covering naming, formatting, and presentation." },
+    { "term": "DesignSystem", "definition": "A versioned set of components, tokens, and patterns implementing the design standards." },
+    { "term": "APIGuideline", "definition": "Standards specifically governing API design, evolution, and operation." },
+    { "term": "Specification", "definition": "Machine-readable contract such as OpenAPI, AsyncAPI, or JSON Schema." },
+    { "term": "Linter", "definition": "Tool that mechanically checks artifacts against design standards." },
+    { "term": "Spectral", "definition": "Open-source linter for OpenAPI and AsyncAPI specifications." },
+    { "term": "RFC2119", "definition": "IETF document defining requirement-level keywords (MUST, SHOULD, MAY)." },
+    { "term": "ISO8601", "definition": "International standard for date and time representations." },
+    { "term": "ISO4217", "definition": "International standard for currency codes." },
+    { "term": "ISO3166", "definition": "International standard for country codes." },
+    { "term": "WCAG", "definition": "Web Content Accessibility Guidelines defining accessibility conformance levels." },
+    { "term": "ProblemJSON", "definition": "RFC 7807 standard format for HTTP API error responses." },
+    { "term": "SemanticVersioning", "definition": "Versioning convention encoding compatibility intent in MAJOR.MINOR.PATCH." },
+    { "term": "DeprecationPolicy", "definition": "Standardized rules describing how API or design surfaces are retired." },
+    { "term": "DesignToken", "definition": "Named, versioned design value (color, spacing, typography) consumed by implementations." },
+    { "term": "AccessibilityConformance", "definition": "Stated level of compliance with accessibility standards such as WCAG." },
+    { "term": "GovernanceBody", "definition": "Group accountable for owning, reviewing, and approving changes to the standards." },
+    { "term": "RFCProcess", "definition": "Documented procedure for proposing, reviewing, and ratifying changes to the standards." }
+  ]
+}
