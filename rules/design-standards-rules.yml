@@ -1,8 +1,8 @@
-name: Design Standards Rules
+x-name: Design Standards Rules
 description: Rules for adopting and operating design standards across products, interfaces, and APIs.
-version: 1.0.0
-created: 2026-04-28
-modified: 2026-04-28
+x-version: 1.0.0
+x-created: 2026-04-28
+x-modified: 2026-04-28
 rules:
   - id: DS-001
     name: Publish a Single Source of Truth
