@@ -1,4 +1,4 @@
-# Design Standards (design-standards)
+# Design Standards
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,40 +66,70 @@
 
 Design Standards encompasses the frameworks, guidelines, and best practices used in product, interface, and system design to ensure consistency, usability, and accessibility. Includes API design guidelines, naming and format conventions, accessibility conformance, deprecation policy, and governance practices.
 
-**References:**
+**Areas:** Accessibility · Design Standards · Design Systems · UX · API Guidelines · Governance
 
-- [Zalando RESTful API Guidelines](https://opensource.zalando.com/restful-api-guidelines/)
-- [WCAG 2.1](https://www.w3.org/TR/WCAG21/)
+## Design Standards on APIs.io
 
-## Scope
+Everything profiled for Design Standards is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/design-standards/](https://apis.io/providers/design-standards/)** — or go straight to one of the APIs or properties below.
 
-- **Type:** Index
-- **Position:** Consuming
-- **Access:** 3rd-Party
+### APIs (1)
 
-## Tags
+- [Design Standards Program](https://apis.io/apis/design-standards/program/) — Rules, capabilities, vocabulary, and linked-data description for an organizational design standards program covering products, interfaces, and APIs.
 
-- Design Standards
-- Design Systems
-- UX
-- Accessibility
-- API Guidelines
-- Governance
+### Published properties
 
-## Contents
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- `rules/design-standards-rules.yml` — Standards governance rules.
-- `capabilities/design-standards-capabilities.md` — Capabilities a standards program delivers.
-- `vocabulary/design-standards-vocabulary.json` — Controlled vocabulary.
-- `json-ld/design-standards.jsonld` — Linked-data description.
+#### JSON-LD (1)
 
-## Maintainers
+Linked-data contexts for the provider's vocabulary.
 
-**FN:** Kin Lane
+- [Design Standards Context](https://apis.io/jsonld/design-standards/design-standards/)
 
-**Email:** kin@apievangelist.com
+#### Governance rules (1)
 
-## Timestamps
+Spectral rulesets for the provider's contracts.
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-04-28
+- [Design Standards API Rules](https://apis.io/rules/design-standards/design-standards-rules/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Design Standards Plans Pricing](https://apis.io/plans/design-standards/design-standards-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Design Standards Rate Limits](https://apis.io/rate-limits/design-standards/design-standards-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Design Standards Finops](https://apis.io/finops/design-standards/design-standards-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [GitHub](https://github.com/api-evangelist)
+
+## API Evangelist rating
+
+**Unrated** — no public website could be reached for this company, so there was almost nothing to measure and nothing a reader could check.
+
+This is not a score of zero. No rating is published for this company. If that is wrong because something public exists that we missed, say so on this repository or email [info@apievangelist.com](mailto:info@apievangelist.com) and it will be re-run — free, and no justification needed.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Design Standards: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/design-standards/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
